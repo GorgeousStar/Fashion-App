@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+.new{
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+    position: relative;
+}
+.arrive{
+    margin-left: 75px;
+    padding-top: 30px;
+}
+.index{
+    width: 80px;
+    position: absolute;
+    z-index: -1;
+    top: 17px;
+    left: 7rem;
+}
+.main-new{
+    position: relative;
+}
