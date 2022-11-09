@@ -25,6 +25,9 @@ color: #000000;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.rows1{
+    display: none !important;
+}
 .live{
     margin-left: 40px;
     font-family: 'Poppins';
@@ -63,8 +66,16 @@ color: #191818;
 .log{
     margin-left: 90px;
 }
-@media screen and (min-width:480px) {
+/* .test{
+    display: none;
+}
+.test2{
+visibility: hidden;
+} */
+/* @media screen and (max-width:480px) {
     .let{
         font-size: 45px;
+        margin-left: 0px;
     }
-}
+
+} */

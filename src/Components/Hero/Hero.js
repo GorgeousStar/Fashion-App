@@ -18,7 +18,7 @@ function Hero() {
     <div>
       <Container>
       <Row className="rows">
-        <Col>
+        <Col className="row1">
           <h1 className="let">
           <span className="box1">LET’S</span><br/>
           EXPLORE<br/>
@@ -37,6 +37,27 @@ function Hero() {
 
         </Col>
       </Row>
+      {/* <Row className="rows1">
+        <Col xs={12} md={6} className="img2">
+
+        </Col>
+        <Col xs={12} md={6} className="row1">
+          <h1 className="let">
+          <span className="box1">LET’S</span><br/>
+          EXPLORE<br/>
+          <span className="box2">UNIQUE</span><br/>
+          CLOTHES.
+          </h1>
+          <p className="live">
+          Live for Influential and Innovative fashion!
+          </p>
+          <div className="shop">
+            <img src={Vector} className="vect"/>
+            <Button className="but" variant="dark">Shop Now</Button>
+          </div>
+        </Col>
+      </Row> */}
+      
       <div className="brand">
         <div className="log">
         <img className="logos" src={Hm}/>
